@@ -1,7 +1,8 @@
 import requests
+from .api_client_interface import APIClientInterface
 from config.settings import settings
 
-class SFMCClient:
+class SFMCClient(APIClientInterface):
     def __init__(self, auth_url: str, api_base_url: str, client_id: str, client_secret: str, resource_id: str):
         self.auth_url = auth_url
         self.api_base_url = api_base_url
