@@ -12,15 +12,17 @@ Salesforce Marketing Cloud Integration: Uses Salesforce Marketing Cloud API for 
 Environment Configuration: Securely manages sensitive data using .env files and Azure KeyVault.
 
 **Project Structure**
+
+```plaintext
 CommunicationAPI/
 │
 ├── app.py
 ├── services/
 │   ├── email_service/
-│   │  ├── __init__.py
-│   │  ├── email_sender.py
-│   │  ├── email_service.py
-│   │  └── email_service_interface.py
+│   │   ├── __init__.py
+│   │   ├── email_sender.py
+│   │   ├── email_service.py
+│   │   └── email_service_interface.py
 │   └── sfmc_service/
 │       ├── __init__.py
 │       ├── create_sfmc_client.py
@@ -34,9 +36,9 @@ CommunicationAPI/
 │   ├── __init__.py
 │   ├── sfmc_client.py
 │   └── api_client_interface.py
-│
 └── utility/
     └── keyvault.py
+  
   app.py: The main entry point of the Flask application.
   services/: Contains business logic for email services and Salesforce Marketing Cloud integration.
   config/: Holds configuration settings, including environment settings and secrets management.
