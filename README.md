@@ -32,10 +32,6 @@ CommunicationAPI/
 │   ├── __init__.py
 │   └── settings.py
 ├── requirements.txt
-├── api_clients/
-│   ├── __init__.py
-│   ├── sfmc_client.py
-│   └── api_client_interface.py
 └── utility/
     └── keyvault.py
   
