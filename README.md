@@ -85,6 +85,3 @@ Ensure you have test cases defined and pytest installed in your environment.
 3. Commit your changes (git commit -m 'Add new feature').
 4. Push to the branch (git push origin feature-branch-name).
 5. Create a new Pull Request.
-
-**License**
-This project is licensed under the MIT License - see the LICENSE file for details.
